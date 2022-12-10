@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 /**
  * main - returns alph
  *
@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	int ch = 'a';
+	char c;
 
-	while (ch <= 'z')
+	c = 'a';
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
