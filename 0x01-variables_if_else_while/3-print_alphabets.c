@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib>
 /**
  * main - Entry point,prints the alphabet in lowercase
  * Return: Always 0
@@ -7,20 +6,12 @@
 int main(void)
 {
 	char c;
-	char d;
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
+	for (c = 'a'; c <= 'z'; c++)
 			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'Z'); {
-			putchar(d);
-			d++;
-		}
-	putchar('\n'0;
+	for (c = 'A'; c <= 'Z'; c++)
+			putchar(c);
+
+	putchar('\n');
 	return (0);
 }
